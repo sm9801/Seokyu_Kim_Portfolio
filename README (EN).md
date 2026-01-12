@@ -15,6 +15,16 @@ Always eager to learn and with consistent growth, I aim to become a 'Robust Data
 <br>
 
 ## 💼 Table of Contents
+- [Revenue KPI Analysis and Opreations Support AI Chatbot](https://github.com/sm9801/Sales_AI_Agent) (Development in progress)
+  - Define KPI metrics of a cosmetics/skincare company's revenue data and deploy a dashboard and an AI Chatbot for detailed analysis
+  - Support business operations through insights from cohort analysis, anomaly detection model, diagnostic analysis, revenue predictions (ARIMA/SARIMA), root cause analysis agentic intelligence, recommendation engine development
+  - Provde detailed decision making support through revenue, brand, product, time, platform metrics
+  - Tech Stack: Python, JavaScript, FastAPI, React, OpenAI API, Pandas
+  
+- [Netflix Recommendation Engine](https://github.com/sm9801/Netflix_Recommendation_Engine)
+  - Netflix user rating predictions through collaborative filtering techniques
+  - Optimal Model: RMSE = 0.46 (K = 3, seed = 1). 71% improvement over the baseline model
+  - Tech Stack: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
 ## Thank you for reading :) 
 Seokyu Kim - Data Scientist
