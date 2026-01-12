@@ -23,8 +23,14 @@ Always eager to learn and with consistent growth, I aim to become a 'Robust Data
   
 - [Netflix Recommendation Engine](https://github.com/sm9801/Netflix_Recommendation_Engine)
   - Netflix user rating predictions through collaborative filtering techniques
-  - Optimal Model: RMSE = 0.46 (K = 3, seed = 1). 71% improvement over the baseline model
+  - Optimal Model: RMSE = 0.46 (K = 3, seed = 1). 71% model improvement over the baseline model
   - Tech Stack: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
+
+- [Key Gene Identification and Brain Cell Type Classification](https://github.com/sm9801/Brain_Cell_Identification_via_t-SNE_Feature_Selection)
+  - Implemented a brain cell classifier using t-SNE and PCA
+  - Identified key features from 2,169 brain cells composed of 45,768 genes
+  - Discovered 3 major brain cell types and 11 distinct subtypes, achieving 93.1% classification accuracy (57% model improvement over the baseline model)
+  - Tech Stack: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy 
 
 ## Thank you for reading :) 
 Seokyu Kim - Data Scientist
