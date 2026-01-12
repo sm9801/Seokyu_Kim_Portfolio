@@ -22,6 +22,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   - 코호트 분석, 이상 탐지 모델, 진단 분석, 매출 예측(ARIMA/SARIMA), 근본 원인 분석 인공지능 모델, 추천 엔진 설계하여 매출 진단, 예측, 이상 탐지 모델 자동화 및 의사결정 지원
   - 매출, 브랜드, 제품, 시계열, 플랫폼 지표애 대한 구체적인 의사결정 제시
   - 기술 스택: Python, JavaScript, FastAPI, React, OpenAI API, Pandas
+  
 - [Netflix 콘텐츠 추천 엔진](https://github.com/sm9801/Netflix_Recommendation_Engine)
   - 협업 필터링 기반 넷플릭스 유저 평가 예측
   - 최적 모델: RMSE = 0.46 (K = 3, seed = 1). 기존 baseline 대비 71% 개선
