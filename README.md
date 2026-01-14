@@ -32,7 +32,20 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   - t-SNE, PCA 기반 뇌세포 분류기 구현
   - 45768개의 유전자로 구성된 뇌세포 2169개 핵심 피처 발굴
   - 주요 뇌세포 3종, 세부 하위 유형 11종 발견하여 모델 정확도 93.1% 달성 (기존 baseline 모델 대비 57% 향상)
-  - 기술 스택: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy 
+  - 기술 스택: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
+
+- [Mauna Loa 화산 CO<sub>2</sub> 배출량 예측, 미국 물가 상승률 모델링](https://github.com/sm9801/Mauna_Loa_CO2_levels_and_US_Inflation_Rate_Analysis)
+  - Mauna Loa 화산 CO<sub>2</sub> 배출량 예측
+    - 1958 ~ 2019년 Mauna Loa 화산 CO₂ 데이터 잔차(residual) 분석을 통해 계절별 트렌드와 변동성 분석
+    - 결정적 추세 모델 파라미터 예측: Quadratic regression $F_n(t_i)$ ~ $\beta_0 + \beta_1t + \beta_2t^2$
+    - 계절 추세 모델 정의: Monthly Average Residuals $P_i = C_i-F_n(t)$
+    - 잔차 모델: Remaining Residuals $R_i$
+    - 최적 모델: RMSE = 1.143, MAPE = 0.21%의 CO<sub>2</sub>배출량 예측 성능 달성
+  - 미국 물가상승률 모델링
+    - 2008 ~ 2019 소비자물가지수 (CPI), 손익분기점 (BER), 물가상승률 (IR) 데이터 전처리 및 추가 지수 정의
+    - 자기공분산 함수 기반 AR(p) + RBF 구조 학습 및 파라미터 튜닝, 내생적 로그 변환 CPI + 외인성 변환 BER 데이터 활용한 SARIMAX 모델 훈련
+    - 최적 모델: RMSE = 0.0527
+  - 기술 스택: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
 
 ## 읽어주셔서 감사합니다 :) 
 데이터 사이언티스트 김서규
