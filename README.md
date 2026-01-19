@@ -28,9 +28,15 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   - 최적 모델: RMSE = 0.46 (K = 3, seed = 1). 기존 baseline 모델 대비 71% 개선
   - 기술 스택: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
+- [사기성 채용 공고 탐지 파이프라인](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
+  - 17,879개의 채용공고 데이터 feature engineering 및 분류 모델 반복적 개발/​학습
+  - Hyperparameter 튜닝 통해 최적 정확도 98.5%, F1 점수 83.2% 달성
+  - 중요도 50% 이상인 핵심 피처 4개(회사 프로필, 산업, 요구사항, JD) 발굴하여 채용 공고 사기성 탐지 향상
+  - 기술 스택: Python, Snowflake, Dataiku, Random Forest, Gradient Boosting, Decision Tree, XGBoost, SGD
+
 - [뇌세포 주요 유전자 발굴 및 뇌세포 분류](https://github.com/sm9801/Brain_Cell_Identification_via_t-SNE_Feature_Selection)
   - t-SNE, PCA 기반 뇌세포 분류기 구현
-  - 45768개의 유전자로 구성된 뇌세포 2169개 핵심 피처 발굴
+  - 45,768개의 유전자로 구성된 뇌세포 2169개 핵심 피처 발굴
   - 주요 뇌세포 3종, 세부 하위 유형 11종 발견하여 모델 정확도 93.1% 달성 (기존 baseline 모델 대비 57% 향상)
   - 기술 스택: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
 
