@@ -44,7 +44,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   - Mauna Loa 화산 CO<sub>2</sub> 배출량 예측
     - 1958 ~ 2019년 Mauna Loa 화산 CO<sub>2</sub> 데이터 잔차(residual) 분석을 통해 계절별 트렌드와 변동성 분석
     - 결정적 추세 모델 파라미터 예측: Quadratic regression $F_n(t_i)$ ~ $\beta_0 + \beta_1t + \beta_2t^2$
-    - 계절 추세 모델 정의: Monthly Average Residuals $P_i = C_i-F_n(t)$
+    - 계절 추세 모델 정의: Monthly Average Residuals $P_i = C_i - F_n(t) - R_i$
     - 잔차 모델: Remaining Residuals $R_i$
     - 최적 모델: RMSE = 1.143, MAPE = 0.21%의 CO<sub>2</sub>배출량 예측 성능 달성
   - 미국 물가상승률 모델링
