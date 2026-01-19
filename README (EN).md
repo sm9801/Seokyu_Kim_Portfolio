@@ -45,7 +45,7 @@ Always eager to learn and with consistent growth, I aim to become a 'Robust Data
     - Seasonal trend model definition: Monthly Average Residuals $P_i = C_i- F_n(t) - R_i$
     - Residual Model: Remaining Residuals $R_i$
     - Optimal Results: Achieved RMSE = 1.143, MAPE = 0.21% of CO<sub>2</sub> emissions prediction performance
-  -  U.S. Inflation Rates Analysis
+  - U.S. Inflation Rates Analysis
     - Preprocessed U.S. Consumer Price Index (CPI), Break Even Rates (BER), and Inflation Rates (IR) data from 2008 ~ 2019 and defined additional metrics
     - Implemented and trained autocovariance function of AR(p) + RBF structure and performed parameter tuning,
     - Trained a SARIMAX model from endogenous logarithm transformed CPI data and exogenous transformed BER data
