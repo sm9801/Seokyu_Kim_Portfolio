@@ -26,11 +26,31 @@ Always eager to learn and with consistent growth, I aim to become a 'Robust Data
   - Optimal Model: RMSE = 0.46 (K = 3, seed = 1). 71% model improvement over the baseline model
   - Tech Stack: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
-- [Key Gene Identification and Brain Cell Type Classification](https://github.com/sm9801/Brain_Cell_Identification_via_t-SNE_Feature_Selection)
+- [Fraudulent Job Postings Classification](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
+  - Collected and processed 17,879 job postings, performing feature engineering for iterative classification model development and optimization
+  - Achieved 98.5% validation accuracy and 83.2% F1-score
+  - Identified 4 key features (company profile, industry, requirements, job description) accounting for over 50% of feature importance (total features: 20)
+  - Tech Stack: Python, Snowflake, Dataiku, Random Forest, Gradient Boosting, Decision Tree, XGBoost, SGD
+
+- [Neural Genomics Identification and Brain Cell Type Classification](https://github.com/sm9801/Brain_Cell_Identification_via_t-SNE_Feature_Selection)
   - Implemented a brain cell classifier using t-SNE and PCA
   - Identified key features from 2,169 brain cells composed of 45,768 genes
   - Discovered 3 major brain cell types and 11 distinct subtypes, achieving 93.1% classification accuracy (57% model improvement over the baseline model)
-  - Tech Stack: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy 
+  - Tech Stack: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
+ 
+- [Mauna Loa Volcano CO<sub>2</sub> Emissions Prediction, U.S. Inflation Rates Analysis](https://github.com/sm9801/Mauna_Loa_CO2_levels_and_US_Inflation_Rate_Analysis)
+  - Mauna Loa Volcano CO<sub>2</sub> Emissions Prediction
+    - Analyzed seasonal trend and volatility of Mauna Loa volcano CO<sub>2</sub> emissions data from 1958 ~ 2019
+    - Deterministic trend model parameters prediction: Quadratic regression $F_n(t_i)$ ~ $\beta_0 + \beta_1t + \beta_2t^2$
+    - Seasonal trend model definition: Monthly Average Residuals $P_i = C_i- F_n(t) - R_i$
+    - Residual Model: Remaining Residuals $R_i$
+    - Optimal Results: Achieved RMSE = 1.143, MAPE = 0.21% of CO<sub>2</sub> emissions prediction performance
+  -  U.S. Inflation Rates Analysis
+    - Preprocessed U.S. Consumer Price Index (CPI), Break Even Rates (BER), and Inflation Rates (IR) data from 2008 ~ 2019 and defined additional metrics
+    - Implemented and trained autocovariance function of AR(p) + RBF structure and performed parameter tuning,
+    - Trained a SARIMAX model from endogenous logarithm transformed CPI data and exogenous transformed BER data
+    - Optimal results: RMSE = 0.0527
+  - Tech Stack: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
 
 ## Thank you for reading :) 
 Seokyu Kim - Data Scientist
