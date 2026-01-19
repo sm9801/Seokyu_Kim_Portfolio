@@ -30,7 +30,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
 
 - [사기성 채용 공고 탐지 파이프라인](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
   - 17,879개의 채용공고 데이터 feature engineering 및 분류 모델 반복적 개발/​학습
-  - Hyperparameter 튜닝 통해 최적 정확도 98.5%, F1 점수 83.2% 달성
+  - Parameter 튜닝 통해 최적 정확도 98.5%, F1 점수 83.2% 달성
   - 중요도 50% 이상인 핵심 피처 4개(회사 프로필, 산업, 요구사항, JD) 발굴하여 채용 공고 사기성 탐지 향상
   - 기술 스택: Python, Snowflake, Dataiku, Random Forest, Gradient Boosting, Decision Tree, XGBoost, SGD
 
@@ -42,7 +42,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
 
 - [Mauna Loa 화산 CO<sub>2</sub> 배출량 예측, 미국 물가 상승률 모델링](https://github.com/sm9801/Mauna_Loa_CO2_levels_and_US_Inflation_Rate_Analysis)
   - Mauna Loa 화산 CO<sub>2</sub> 배출량 예측
-    - 1958 ~ 2019년 Mauna Loa 화산 CO₂ 데이터 잔차(residual) 분석을 통해 계절별 트렌드와 변동성 분석
+    - 1958 ~ 2019년 Mauna Loa 화산 CO<sub>2</sub> 데이터 잔차(residual) 분석을 통해 계절별 트렌드와 변동성 분석
     - 결정적 추세 모델 파라미터 예측: Quadratic regression $F_n(t_i)$ ~ $\beta_0 + \beta_1t + \beta_2t^2$
     - 계절 추세 모델 정의: Monthly Average Residuals $P_i = C_i-F_n(t)$
     - 잔차 모델: Remaining Residuals $R_i$
