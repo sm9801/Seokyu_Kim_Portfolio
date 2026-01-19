@@ -29,7 +29,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   - 기술 스택: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
 - [사기성 채용 공고 탐지 파이프라인](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
-  - 17,879개의 채용공고 데이터 feature engineering 및 분류 모델 반복적 개발/​학습
+  - 17,879개의 채용 공고 데이터 feature engineering 및 분류 모델 반복적 개발/​학습
   - Parameter 튜닝 통해 최적 정확도 98.5%, F1 점수 83.2% 달성
   - 중요도 50% 이상인 핵심 피처 4개(회사 프로필, 산업, 요구사항, JD) 발굴하여 채용 공고 사기성 탐지 향상
   - 기술 스택: Python, Snowflake, Dataiku, Random Forest, Gradient Boosting, Decision Tree, XGBoost, SGD
