@@ -23,7 +23,7 @@ Always eager to learn and with consistent growth, I aim to become a 'Robust Data
   
 - [Netflix Recommendation Engine](https://github.com/sm9801/Netflix_Recommendation_Engine)
   - Netflix user rating predictions through collaborative filtering techniques
-  - Optimal Model: RMSE = 0.46 (K = 3, seed = 1). 71% model improvement over the baseline model
+  - Optimal model performance on real-world simulated Netflix data: RMSE = 2.49 (K = 3, seed = 1). 29.47% model improvement over the baseline model
   - Tech Stack: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
 - [Fraudulent Job Postings Classification](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
