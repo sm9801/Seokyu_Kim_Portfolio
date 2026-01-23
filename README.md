@@ -25,7 +25,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
   
 - [Netflix 콘텐츠 추천 엔진](https://github.com/sm9801/Netflix_Recommendation_Engine)
   - 협업 필터링 기반 넷플릭스 유저 평가 예측
-  - 최적 모델: RMSE = 0.46 (K = 3, seed = 1). 기존 baseline 모델 대비 71% 개선
+  - 최적 모델: RMSE = 2.49 (K = 3, seed = 1). 기존 baseline 모델 대비 29.47% 개선
   - 기술 스택: Python, NumPy, Pandas, scikit-learn, Seaborn, Matplotlib, Yellowbrick, Cleanlab
 
 - [사기성 채용 공고 탐지 파이프라인](https://github.com/sm9801/Fraudulent_Job_Postings_Classification)
