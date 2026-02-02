@@ -48,7 +48,7 @@ University of British Columbia에서 수학을 전공하였으며 확률, 선형
     - 잔차 모델: Remaining Residuals $R_i$
     - 최적 모델: RMSE = 1.143, MAPE = 0.21%의 CO<sub>2</sub>배출량 예측 성능 달성
   - 미국 물가상승률 모델링
-    - 2008 ~ 2019 소비자물가지수 (CPI), 손익분기점 (BER), 물가상승률 (IR) 데이터 전처리 및 추가 지수 정의
+    - 2008 ~ 2019년 미국 소비자물가지수 (CPI), 손익분기점 (BER), 물가상승률 (IR) 데이터 전처리 및 추가 지수 정의
     - 자기공분산 함수 기반 AR(p) + RBF 구조 학습 및 파라미터 튜닝, 내생적 로그 변환 CPI + 외인성 변환 BER 데이터 활용한 SARIMAX 모델 훈련
     - 최적 모델: RMSE = 0.0527
   - 기술 스택: Python, NumPy, Jupyter, Seaborn, statsmodels, scikit-learn, Matplotlib, Jupyter, SciPy
